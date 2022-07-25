@@ -30,7 +30,7 @@ string Print(string[] inputArray)
 {
     string result = "";
 
-    foreach(string el in inputArray)
+    foreach (string el in inputArray)
     {
         result = result + el + ", ";
     }
@@ -38,4 +38,4 @@ string Print(string[] inputArray)
 }
 
 
-string[] startArray = {"start", "hello", "2", "world", ":-)", "1234", "1567", "-2", "computer science", "end"};
+string[] startArray = { "start", "hello", "2", "world", ":-)", "1234", "1567", "-2", "computer science", "end" };
