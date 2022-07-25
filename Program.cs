@@ -39,3 +39,9 @@ string Print(string[] inputArray)
 
 
 string[] startArray = { "start", "hello", "2", "world", ":-)", "1234", "1567", "-2", "computer science", "end" };
+System.Console.WriteLine($"Star Array \n{Print(startArray)}");
+System.Console.WriteLine();
+
+string[] finishArray = MainTask(startArray);
+System.Console.WriteLine($"Finish Array \n{Print(finishArray)}");
+System.Console.WriteLine();
