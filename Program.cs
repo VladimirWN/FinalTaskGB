@@ -26,5 +26,16 @@
     return newArray;
 }
 
+string Print(string[] inputArray)
+{
+    string result = "";
 
-string[] startArray = {"start", "hello", "2", "world", ":-)", "1234", "1567", "-2", "computer science", "end"};
+    foreach (string el in inputArray)
+    {
+        result = result + el + ", ";
+    }
+    return result;
+}
+
+
+string[] startArray = { "start", "hello", "2", "world", ":-)", "1234", "1567", "-2", "computer science", "end" };
